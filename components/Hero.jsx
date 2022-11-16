@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { urlFor } from "../sanity";
 
-
 function Hero({ pageInfo }) {
   const [text, count] = useTypewriter({
     words: [`Hi, I'm ${pageInfo?.name}`, "<loveToCode />", "NeedACoffee.js"],

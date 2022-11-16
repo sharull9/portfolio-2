@@ -44,7 +44,7 @@ function About({ pageInfo }) {
           Something{" "}
           <span className="underline decoration-[#333333]">About</span> me
         </h4>
-        <p className="text-base">{pageInfo.backgroundInformation}</p>
+        <p className="text-base">{pageInfo?.backgroundInformation}</p>
       </div>
     </motion.div>
   );
