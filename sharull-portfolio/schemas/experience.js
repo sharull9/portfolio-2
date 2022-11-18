@@ -24,12 +24,12 @@ export default {
     {
       name: 'dateStarted',
       title: 'DateStarted',
-      type: 'string'
+      type: 'date'
     },
     {
       name: 'dateEnded',
       title: 'DateEnded',
-      type: 'string'
+      type: 'date'
     },
     {
       name: 'isCurrentlyWorking',
